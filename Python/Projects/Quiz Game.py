@@ -26,7 +26,7 @@ if playing == "yes":
         print("Sorry your answer is wrong and your score is: ", str(score))
     
     answer4 = input("What does USA stands for? ").lower()
-    if answer3 =="united state of america":
+    if answer4 =="united state of america":
         score+=1
         print("Congratulations your answer is correct and now your score is: ",str(score))
     else:
